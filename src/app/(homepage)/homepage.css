@@ -1,0 +1,223 @@
+.custom-shape-divider-bottom-1747183291 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1747183291 svg {
+    position: relative;
+    display: block;
+    width: 125lvw;
+    height: 90lvh;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1747183291 .shape-fill {
+    fill: #FFFFFF;
+}
+
+button:hover {
+   background: #fff;
+   color: #ff0066;
+   transition: all 0.3s ease-in-out;
+   cursor: pointer;
+}
+
+a:hover {
+   opacity: 0.7;
+   color: #fff;
+   transition:all 0.3s ease-in-out;
+   cursor: pointer;
+
+}
+a.log:hover {
+   opacity: 0.7;
+   color: #ff0066;
+   transition:all 0.3s ease-in-out;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+
+.background {
+  position: relative;
+  height: 90vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #062056 0%, #f0e4e4a9 100%);
+  background-blend-mode: overlay;
+  overflow: hidden;
+}
+.background li {
+  position: relative;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 19s linear infinite;
+}
+
+.background li:nth-child(0) {
+  left: 75%;
+  width: 131px;
+  height: 131px;
+  bottom: -131px;
+  animation-delay: 1s;
+}
+.background li:nth-child(1) {
+  left: 55%;
+  width: 180px;
+  height: 180px;
+  bottom: -180px;
+  animation-delay: 2s;
+}
+.background li:nth-child(2) {
+  left: 16%;
+  width: 151px;
+  height: 151px;
+  bottom: -151px;
+  animation-delay: 3s;
+}
+.background li:nth-child(3) {
+  left: 76%;
+  width: 155px;
+  height: 155px;
+  bottom: -155px;
+  animation-delay: 14s;
+}
+.background li:nth-child(4) {
+  left: 40%;
+  width: 145px;
+  height: 145px;
+  bottom: -145px;
+  animation-delay: 11s;
+}
+.background li:nth-child(5) {
+  left: 34%;
+  width: 174px;
+  height: 174px;
+  bottom: -174px;
+  animation-delay: 15s;
+}
+.background li:nth-child(6) {
+  left: 37%;
+  width: 146px;
+  height: 146px;
+  bottom: -146px;
+  animation-delay: 9s;
+}
+.background li:nth-child(7) {
+  left: 31%;
+  width: 171px;
+  height: 171px;
+  bottom: -171px;
+  animation-delay: 30s;
+}
+.background li:nth-child(8) {
+  left: 55%;
+  width: 126px;
+  height: 126px;
+  bottom: -126px;
+  animation-delay: 4s;
+}
+.background li:nth-child(9) {
+  left: 50%;
+  width: 181px;
+  height: 181px;
+  bottom: -181px;
+  animation-delay: 16s;
+}
+.background li:nth-child(10) {
+  left: 11%;
+  width: 130px;
+  height: 130px;
+  bottom: -130px;
+  animation-delay: 33s;
+}
+.background li:nth-child(11) {
+  left: 43%;
+  width: 156px;
+  height: 156px;
+  bottom: -156px;
+  animation-delay: 21s;
+}
+.background li:nth-child(12) {
+  left: 19%;
+  width: 150px;
+  height: 150px;
+  bottom: -150px;
+  animation-delay: 33s;
+}
+.background li:nth-child(13) {
+  left: 47%;
+  width: 124px;
+  height: 124px;
+  bottom: -124px;
+  animation-delay: 40s;
+}
+.background li:nth-child(14) {
+  left: 41%;
+  width: 182px;
+  height: 182px;
+  bottom: -182px;
+  animation-delay: 20s;
+}
+.background li:nth-child(15) {
+  left: 45%;
+  width: 166px;
+  height: 166px;
+  bottom: -166px;
+  animation-delay: 46s;
+}
+.background li:nth-child(16) {
+  left: 26%;
+  width: 142px;
+  height: 142px;
+  bottom: -142px;
+  animation-delay: 38s;
+}
+.background li:nth-child(17) {
+  left: 69%;
+  width: 180px;
+  height: 180px;
+  bottom: -180px;
+  animation-delay: 25s;
+}
+.background li:nth-child(18) {
+  left: 47%;
+  width: 183px;
+  height: 183px;
+  bottom: -183px;
+  animation-delay: 74s;
+}
+.background li:nth-child(19) {
+  left: 7%;
+  width: 121px;
+  height: 121px;
+  bottom: -121px;
+  animation-delay: 11s;
+}
+section {
+  border: none !important;
+  margin: 0 !important;
+}
+
+section + section {
+  border-top: none !important;
+}
