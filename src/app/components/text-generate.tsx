@@ -8,7 +8,7 @@ export const TextGenerateEffect = ({
   className,
   filter = true,
   duration = 0.5,
-  onComplete, // Ajoute cette prop
+  onComplete, 
 }: {
   words: string;
   className?: string;
@@ -28,7 +28,7 @@ export const TextGenerateEffect = ({
       {
         duration: duration ? duration : 1,
         delay: stagger(0.2),
-        onComplete: () => onComplete?.(), // Appelle onComplete quand l'animation est terminée
+        onComplete: () => onComplete?.(),
       }
     );
   }, [scope.current]);

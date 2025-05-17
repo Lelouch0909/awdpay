@@ -1,14 +1,15 @@
-"use client";
+"use client"; 
 import { useEffect, useRef, useState } from "react";
 import { Color, Scene, Fog, PerspectiveCamera, Vector3, Group } from "three";
 import ThreeGlobe from "three-globe";
 import { useThree, Canvas, extend } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import countries from "@/data/globe.json";
+
 declare module "@react-three/fiber" {
   interface ThreeElements {
     threeGlobe: ThreeElements["mesh"] & {
-      new(): ThreeGlobe;
+      new (): ThreeGlobe;
     };
   }
 }
@@ -246,7 +247,7 @@ export function WebGLRendererConfig() {
   return null;
 }
 
-export function World(props: WorldProps) {
+export  function World(props: WorldProps) {
   const { globeConfig } = props;
   const scene = new Scene();
   scene.fog = new Fog(0xffffff, 400, 2000);
@@ -307,3 +308,5 @@ export function genRandomNumbers(min: number, max: number, count: number) {
 
   return arr;
 }
+
+export default World;
